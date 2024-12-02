@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Meme-Creator</string>
+    <string name="create_meme_msg">Tap + button to create your first meme</string>
+    <string name="your_memes_title">Your Memes</string>
+    <string name="choose_template_title">Choose Template</string>
+    <string name="choose_template_msg">Choose Template for you next meme masterpiece</string>
+    <string name="new_meme_title">New Meme</string>
+    <string name="leave_editor_title">Leave Editor?</string>
+    <string name="leave_editor_msg">You will lose your precious meme. If you\'re fine with that, \'Leave\'.</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="leave_button_text">Leave</string>
+    <string name="ok_button_text">OK</string>
+    <string name="save_meme_button_text">Save Meme</string>
+    <string name="add_text_button_text">Add Text</string>
+    <string name="text_placeholder">TAP TWICE TO EDIT</string>
+    <string name="save_to_device_title">Save to device</string>
+    <string name="save_to_device_msg">Save created meme in the Files of your device</string>
+    <string name="share_meme_title">Share the meme</string>
+    <string name="share_meme_msg">Share your meme or open it in the other App</string>
 </resources>
