@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Meme constructor(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     val id: Long,
     val name: String,
     val isLiked: Boolean,

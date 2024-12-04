@@ -11,10 +11,10 @@ import kotlinx.coroutines.flow.Flow
 interface MemeDao {
 
     @Query("Select * FROM meme")
-    fun getMemes(): Flow<Meme>
+    fun getMemes(): Flow<List<Meme>>
 
     @Insert
-    fun addMeme(meme: Meme)
+    fun insertMeme(meme: Meme)
 
     @Delete
     fun deleteMeme(meme: Meme)
